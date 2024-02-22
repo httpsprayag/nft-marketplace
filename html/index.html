@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/resposive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home page</title>
+</head>
+
+<body>
+
+    <!-- -----------------------Navbar-------------------------- -->
+    <div class="container position-sticky">
+        <nav class="navbar d-flex">
+            <div class="nav-left">
+                <div class="d-flex align-center">
+                    <a href="./index.html"><img src="../images/nav.svg" alt="" /></a>
+                    <a class="text-light" href="./nft-page.html">NFT marketplace</a>
+                </div>
+                <span class="navbar-toggle hidden" id="js-navbar-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </div>
+            <div class="col-6 d-flex nav-right main-nav" id="js-menu">
+                <a class=" text-light" href="./marketplace-page.html">marketplace</a>
+                <a class="text-light" href="./rankings.html">Rankings</a>
+                <a class="text-light" href="./connect-wallet.html">Connect a wallet</a>
+                <a href="./sign-up.html"> <button class="btn-violate sign-up">Signup</button></a>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- ----------------------- Hero page------------------------ -->
+    <div class="container">
+        <div class="d-flex justify-between hero mt-80">
+            <div class="col-5 hero-content" id="parent">
+                <h1 class="title">Discover digital art & Collect NFTs</h1>
+                <h4 class="content">
+                    NFT marketplace UI created with Anima for Figma. Collect, buy and
+                    sell art from more than 20k NFT artists.
+                </h4>
+                <div id="child">
+                    <button class="btn-violate started">Get Started</button>
+                    <div class="analysis d-flex">
+                        <div class="col-4">
+                            <p>240k+</p>
+                            <p>Total Sale</p>
+                        </div>
+                        <div class="col-4">
+                            <p>240k+</p>
+                            <p>Total Sale</p>
+                        </div>
+                        <div class="col-4">
+                            <p>240k+</p>
+                            <p>Total Sale</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 hero-img" id="hero">
+                <img class="hero-image" src="../images/Image Placeholder.svg" alt="" />
+                <div class="card">
+                    <p class="card-heading">Space Walking</p>
+                    <p class="card-content">Animakid</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------trending page --------------------- -->
+
+    <div class="container">
+        <div class="p-80">
+            <p class="heading">Trending Collection</p>
+            <p class="content">Checkout our weekly updated trending collection.</p>
+        </div>
+        <div class="trending d-grid3">
+            <div class="p-25 O-1">
+                <img class="primary-image" src="../images/Primary Photo Placeholder.png" alt="" />
+                <div class="secondary-image d-flex">
+                    <img class="col-4" src="../images/Secondary Photo Placeholder.png" alt="" />
+                    <img class="col-4" src="../images/Secondary Photo Placeholder (1).png" alt="" />
+                    <span class="col-4 btn-violate" class="btn-violate">1025+</span>
+                </div>
+                <div>
+                    <p class="heading">DSGN Animals</p>
+                    <p class="content">MrFox</p>
+                </div>
+            </div>
+            <div class="p-25 O-2 d-xs-none">
+                <img class="primary-image" src="../images/Primary Photo Placeholder (1).png" alt="" />
+                <div class="secondary-image d-flex">
+                    <img class="col-4" src="../images/Secondary Photo Placeholder (2).png" alt="" />
+                    <img class="col-4" src="../images/Secondary Photo Placeholder (5).png" alt="" />
+                    <span class="col-4 btn-violate" class="btn-violate">1025+</span>
+                </div>
+                <div>
+                    <p class="heading">DSGN Animals</p>
+                    <p class="content">MrFox</p>
+                </div>
+            </div>
+            <div class="p-25 O-3 d-sm-none">
+                <img class="primary-image" src="../images/Primary Photo Placeholder (2).png" alt="" />
+                <div class="secondary-image d-flex">
+                    <img class="col-4" src="../images/Secondary Photo Placeholder (1).png" alt="" />
+                    <img class="col-4" src="../images/Secondary Photo Placeholder (3).png" alt="" />
+                    <span class="col-4 btn-violate" class="btn-violate">1025+</span>
+                </div>
+                <div>
+                    <p class="heading">DSGN Animals</p>
+                    <p class="content">MrFox</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ________________Creators page ____________________________ -->
+
+    <div class="container">
+        <div class="d-flex justify-between">
+            <div class="d-none">
+                <p class="heading">Top creators</p>
+                <p class="content">
+                    Checkout Top Rated Creators on the NFT Marketplace
+                </p>
+            </div>
+            <button class="border-violate" type="button">View Rankings</button>
+        </div>
+
+        <div class="d-grid4 p-25">
+            <div class="model text-center">
+                <img src="../images/Avatar Placeholder.svg" alt="" />
+                <div class="model-content">
+                    <h4>Keepitreal</h4>
+                    <h5>Total Sales: 34.53 ETH</h5>
+                </div>
+            </div>
+            <div class="model text-center">
+                <img src="../images/Avatar Placeholder (1).svg" alt="" />
+                <div class="model-content">
+                    <h4>Keepitreal</h4>
+                    <h5>Total Sales: 34.53 ETH</h5>
+                </div>
+            </div>
+            <div class="model text-center">
+                <img src="../images/Avatar Placeholder (2).svg" alt="" />
+                <div class="model-content">
+                    <h4>Keepitreal</h4>
+                    <h5>Total Sales: 34.53 ETH</h5>
+                </div>
+            </div>
+            <div class="model text-center">
+                <img src="../images/Avatar Placeholder (3).svg" alt="" />
+                <div class="model-content">
+                    <h4>Keepitreal</h4>
+                    <h5>Total Sales: 34.53 ETH</h5>
+                </div>
+            </div>
+            <div class="model text-center">
+                <img src="../images/Avatar Placeholder (4).svg" alt="" />
+                <div class="model-content">
+                    <h4>Keepitreal</h4>
+                    <h5>Total Sales: 34.53 ETH</h5>
+                </div>
+            </div>
+            <div class="model text-center d-none">
+                <img src="../images/Avatar Placeholder (5).svg" alt="" />
+                <div class="model-content">
+                    <h4>Keepitreal</h4>
+                    <h5>Total Sales: 34.53 ETH</h5>
+                </div>
+            </div>
+
+            <div class="model text-center d-xs-none">
+                <img src="../images/Avatar Placeholder (6).svg" alt="" />
+                <div class="model-content">
+                    <h4>Keepitreal</h4>
+                    <h5>Total Sales: 34.53 ETH</h5>
+                </div>
+            </div>
+            <div class="model text-center d-xs-none">
+                <img src="../images/Avatar Placeholder (7).svg" alt="" />
+                <div class="model-content">
+                    <h4>Keepitreal</h4>
+                    <h5>Total Sales: 34.53 ETH</h5>
+                </div>
+            </div>
+            <div class="model text-center d-xs-none">
+                <img src="../images/Avatar Placeholder (8).svg" alt="" />
+                <div class="model-content">
+                    <h4>Keepitreal</h4>
+                    <h5>Total Sales: 34.53 ETH</h5>
+                </div>
+            </div>
+            <div class="model text-center d-xs-none">
+                <img src="../images/Avatar Placeholder (9).svg" alt="" />
+                <div class="model-content">
+                    <h4>Keepitreal</h4>
+                    <h5>Total Sales: 34.53 ETH</h5>
+                </div>
+            </div>
+            <div class="model text-center d-xs-none">
+                <img src="../images/Avatar Placeholder (10).svg" alt="" />
+                <div class="model-content">
+                    <h4>Keepitreal</h4>
+                    <h5>Total Sales: 34.53 ETH</h5>
+                </div>
+            </div>
+            <div class="model text-center d-xs-none">
+                <img src="../images/Avatar Placeholder (11).svg" alt="" />
+                <div class="model-content">
+                    <h4>Keepitreal</h4>
+                    <h5>Total Sales: 34.53 ETH</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ________________Categories_________________________________-->
+    <div class="container ">
+        <p class="heading p-80">Browse Categories</p>
+        <div class="d-grid">
+            <div class="catagory">
+                <img src="../images/Photo & Icon.svg" alt="" />
+                <div class="gray">Art</div>
+            </div>
+            <div class="catagory">
+                <img src="../images/Photo & Icon (1).svg" alt="" />
+                <div class="gray">Collectibles</div>
+            </div>
+            <div class="catagory">
+                <img src="../images/Photo & Icon (2).svg" alt="" />
+                <div class="gray">Music</div>
+            </div>
+            <div class="catagory">
+                <img src="../images/Photo & Icon (3).svg" alt="" />
+                <div class="gray">Photography</div>
+            </div>
+            <div class="catagory">
+                <img src="../images/Photo & Icon (4).svg" alt="" />
+                <div class="gray">Video</div>
+            </div>
+            <div class="catagory">
+                <img src="../images/Photo & Icon (5).svg" alt="" />
+                <div class="gray">Utility</div>
+            </div>
+            <div class="catagory">
+                <img src="../images/Photo & Icon (6).svg" alt="" />
+                <div class="gray">Sport</div>
+            </div>
+            <div class="catagory">
+                <img src="../images/Photo & Icon (7).svg" alt="" />
+                <div class="gray">Virtual Worlds</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------Discover More NFT's ------------------------->
+
+    <div class="container">
+        <div class="d-flex justify-between p-25">
+            <div class="d-none">
+                <p class="heading">Top creators</p>
+                <p class="content">
+                    Checkout Top Rated Creators on the NFT Marketplace
+                </p>
+            </div>
+            <button class="border-violate " type="button">View Rankings</button>
+        </div>
+        <div class="d-grid3">
+            <div class="nft">
+                <img class="nftimg" src="../images/Image Placeholder (1).svg" alt="" />
+                <div class="bg-gray p-15">
+                    <p class="heading">Distant Galaxy</p>
+                    <div class="profile d-flex">
+                        <img src="../images/Avatar Placeholder (12).svg" alt="" />
+                        <h6>MoonDancer</h6>
+                    </div>
+                    <div class="d-flex justify-between info">
+                        <div>
+                            <p>price</p>
+                            <p class="content">1.63 ETH</p>
+                        </div>
+                        <div>
+                            <p class="text-right">Highest Bid</p>
+                            <p class="content">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nft d-xs-none">
+                <img class="nftimg" src="../images/Image Placeholder (2).svg" alt="" />
+                <div class="bg-gray p-15">
+                    <p class="heading">Distant Galaxy</p>
+                    <div class="profile d-flex">
+                        <img src="../images/Avatar Placeholder (12).svg" alt="" />
+                        <h6>MoonDancer</h6>
+                    </div>
+                    <div class="d-flex justify-between info">
+                        <div>
+                            <p>price</p>
+                            <p class="content">1.63 ETH</p>
+                        </div>
+                        <div>
+                            <p class="text-right">Highest Bid</p>
+                            <p class="content">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nft d-sm-none">
+                <img class="nftimg" src="../images/Image Placeholder (3).svg" alt="" />
+                <div class="bg-gray p-15">
+                    <p class="heading">Distant Galaxy</p>
+                    <div class="profile d-flex">
+                        <img src="../images/Avatar Placeholder (12).svg" alt="" />
+                        <h6>MoonDancer</h6>
+                    </div>
+                    <div class="d-flex justify-between info">
+                        <div>
+                            <p>price</p>
+                            <p class="content">1.63 ETH</p>
+                        </div>
+                        <div>
+                            <p class="text-right">Highest Bid</p>
+                            <p class="content">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------- Main Flower ------------------------>
+
+    <div class="bg p-80">
+        <div class="container">
+            <div class="d-flex overlay m-25">
+                <div class="mashroom" id="mashroom">
+                    <div class="heading">Magic Mashrooms</div>
+                    <button class="nft-btn" id="nft-btn"><img class="eye" src="../images/Eye.svg" alt=""> See
+                        NFT</button>
+                </div>
+                <div id="time" class="time">
+                    Auction ends in: <br>
+                    <table>
+                        <tr>
+                            <td> 59 :</td>
+                            <td> 59 :</td>
+                            <td> 59 :</td>
+                        </tr>
+                        <tr>
+                            <td>Hours</td>
+                            <td>Minutes</td>
+                            <td>Seconds</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="time-parent" class="time-parent p-25">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------How it works------------------------>
+    <div class="container">
+        <p class="heading">How it works</p>
+        <p class="content">Find out how to get started</p>
+        <div class="d-flex cards text-center p-25 gap-35">
+            <div class="info-card bg-gray">
+                <img class="info-img" src="../images/Icon.svg" alt="" />
+                <div>
+                    <p class="heading-secondary">Setup Your wallet</p>
+                    <p class="content-secondary">
+                        Set up your wallet of choice. Connect it to the Animarket by
+                        clicking the wallet icon in the top right corner.
+                    </p>
+                </div>
+            </div>
+            <div class="info-card bg-gray ">
+                <img class="info-img" src="../images/Icon (1).svg" alt="" />
+                <div>
+                    <p class="heading-secondary">Setup Your wallet</p>
+                    <p class="content-secondary">
+                        Set up your wallet of choice. Connect it to the Animarket by
+                        clicking the wallet icon in the top right corner.
+                    </p>
+                </div>
+            </div>
+            <div class="info-card bg-gray">
+                <img class="info-img" src="../images/Icon (2).svg" alt="" />
+                <div>
+                    <p class="heading-secondary">Setup Your wallet</p>
+                    <p class="content-secondary">
+                        Set up your wallet of choice. Connect it to the Animarket by
+                        clicking the wallet icon in the top right corner.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------join us----------------------------->
+
+    <div class="container p-25">
+        <div class="bg-gray p-80">
+            <div class="community d-flex ">
+                <img src="../images/Photo.svg" alt="" />
+                <div class="join-us">
+                    <div>
+                        <p class="heading">Join our weekly digest</p>
+                        <p class="contnet">
+                            Get exclusive promotions & updates straight to your inbox.
+                        </p>
+                        <input type="email" autocomplete="email" placeholder="enter your email here" />
+                        <button class="btn-violate">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------Footer------------------------ -->
+
+    <div class="bg-gray">
+        <div class="container">
+            <div class="d-grid-footer p-25">
+                <div class="footer-item">
+                    <div>
+                        <p class="heading-secondary">Nft Marketplace</p>
+                        <p class="content-secondary">
+                            NFT marketplace UI created with Anima for Figma.
+                        </p>
+                        <p class="content-secondary">Join our community</p>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div>
+                        <p class="heading-secondary">Explore</p>
+                        <p class="content-secondary">Marketplace</p>
+                        <p class="content-secondary">Rankings</p>
+                        <p class="content-secondary">Connect a wallet</p>
+                    </div>
+                </div>
+                <div class="footer-item item3">
+                    <div>
+                        <p class="heading-secondary">Join our weekly digest</p>
+                        <p class="content-secondary">
+                            Get exclusive promotions & updates straight to your inbox.
+                        </p>
+                        <input type="email" placeholder="enter your email here" />
+                        <button class="btn-violate">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-gray" />
+            <p class="p-25 contetnt-secondary m-0">
+                Ⓒ NFT Market. Use this template freely.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const mediaQuery = window.matchMedia("(max-width: 992px)");
+        const mediaQuery2 = window.matchMedia("(min-width: 992px)");
+        const mediaQuery3 = window.matchMedia("(max-width: 768px)");
+        const mediaQuery4 = window.matchMedia("(min-width: 768px)");
+
+        const child = document.getElementById("child");
+        const parent = document.getElementById("parent");
+        const nftbtn = document.getElementById("nft-btn")
+        const time = document.getElementById("time-parent");
+        const mashroom = document.getElementById("mashroom");
+        function handleTabletChange(e) {
+            if (e.matches) {
+                // parent.removeChild(child);
+                document.getElementById("hero").appendChild(child);
+                document.getElementById("child").style.padding = "20px 0";
+            }
+        }
+        function handleTabletChange2(e) {
+            if (e.matches) {
+                // hero.removeChild(child);
+                const aprent = document.getElementById("parent");
+                console.log("hero :", parent);
+                parent.appendChild(child)
+                document.getElementById("child").style.padding = "20px 0";
+            }
+        }
+        function handleTabletChange3(e) {
+            if (e.matches) {
+                // parent.removeChild(child);
+                time.append(nftbtn)
+            }
+        }
+        function handleTabletChange4(e) {
+            if (e.matches) {
+                // hero.removeChild(child);
+                mashroom.appendChild(nftbtn)
+            }
+        }
+        // Register event listener
+        mediaQuery.addListener(handleTabletChange);
+        mediaQuery2.addListener(handleTabletChange2);
+        mediaQuery3.addListener(handleTabletChange3);
+        mediaQuery4.addListener(handleTabletChange4);
+        // Initial check
+        handleTabletChange(mediaQuery);
+        handleTabletChange2(mediaQuery2);
+        handleTabletChange3(mediaQuery3);
+        handleTabletChange4(mediaQuery4);
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+
+        navBarToggle.addEventListener('click', function () {
+            mainNav.classList.toggle('active');
+        });
+
+    </script>
+</body>
+
+</html>

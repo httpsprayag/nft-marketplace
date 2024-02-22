@@ -1,0 +1,624 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+body,
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #1c1a1a;
+  color: white;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 115px;
+  padding-left: 115px;
+  margin: auto;
+}
+.m-0 {
+  margin: 0;
+}
+.h-100 {
+  height: 100%;
+}
+.br-50 {
+  border-radius: 50%;
+}
+.bg-dark {
+  background: rgba(43, 43, 43, 1);
+}
+h4,
+h5 {
+  margin: 0;
+}
+.position-sticky {
+  position: sticky;
+  top: 0;
+  background: #1c1a1a;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.p-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.m-25 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.gap-35 {
+  column-gap: 35px;
+}
+.text-light {
+  color: white;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.align-center {
+  align-items: center;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.6667%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.3333%;
+}
+.col-5 {
+  width: 41.666667%;
+}
+.col-6 {
+  width: 50%;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+.w-100 {
+  width: 100%;
+}
+.title {
+  margin: 0;
+  font-size: 67px;
+  font-weight: 600;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+}
+.heading-secondary {
+  font-size: 22px;
+  font-weight: 600;
+}
+.content {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: justify;
+}
+.content-secondary {
+  font-size: 20px;
+  /* font-weight: 300; */
+  opacity: 50%;
+}
+.hidden {
+  display: none;
+}
+.green {
+  color: green;
+}
+.d-xs-block {
+  display: none;
+}
+.d-flex {
+  display: flex;
+}
+.underline {
+  border-bottom: 2px solid white;
+}
+.flex-column {
+  flex-direction: column;
+}
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 13px;
+}
+.d-grid-footer {
+  display: grid;
+  grid-template-columns: repeat(1, 3fr 3fr 4fr);
+  justify-content: space-between;
+}
+.d-grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  justify-content: space-between;
+}
+.d-grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-content: space-between;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.sign-up {
+  height: 45px;
+  width: 152px;
+  border-radius: 20px;
+  padding: 0px 30px 0px 30px;
+}
+.btn-violate {
+  border: none;
+  background: rgba(162, 89, 255, 1);
+  color: white;
+}
+.navbar {
+  height: 65px;
+  width: 100%;
+  justify-content: space-between;
+  background: #1c1a1a;
+}
+.nav-right {
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-left > div > a,
+.nav-right > a {
+  text-decoration: none;
+}
+.started {
+  height: 60px;
+  width: 200px;
+  border-radius: 20px;
+  padding: 0px 50px 0px 50px;
+  color: white;
+}
+.card-heading {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 31px;
+}
+.card-content {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.card {
+  background-color: rgba(59, 59, 59, 1);
+  width: 100%;
+  padding-left: 25px;
+  display: inline-block;
+  border-radius: 0 0 15px 15px;
+}
+
+img.hero-image {
+  width: 100%;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+/*  ----------------Trending section------------------   */
+
+.primary-image {
+  width: 100%;
+  border-radius: 20px;
+}
+.secondary-image {
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.secondary-image img,
+span {
+  border-radius: 20px;
+}
+
+/* _______________________Creators - page __________________________ */
+
+.border-violate {
+  border: 2px solid rebeccapurple;
+  background-color: transparent;
+  color: white;
+  height: 60px;
+  width: 247px;
+  border-radius: 20px;
+  padding: 0px 50px 0px 50px;
+}
+
+.model {
+  background: rgba(59, 59, 59, 1);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.catagory > img {
+  width: 100%;
+}
+.gray {
+  height: 76px;
+  width: 240px;
+  padding: 20px 30px 25px 30px;
+  background-color: rgba(59, 59, 59, 1);
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+}
+.bg-gray {
+  background-color: rgba(59, 59, 59, 1);
+  border-radius: 0 0 15px 15px;
+  /* padding: 15px; */
+}
+/* -------------NFT---------------------- */
+
+.nftimg {
+  width: 100%;
+}
+.profile {
+  column-gap: 15px;
+}
+.info p {
+  padding: 0;
+  margin: 0;
+}
+.info-img {
+  width: 208px;
+}
+
+/* ---------flower ------------ */
+
+.time-parent {
+  display: none;
+}
+
+/* --------------How it works--------------------- */
+
+.info-card {
+  border-radius: 20px;
+  padding: 10px 50px 20px 50px;
+  height: 420px;
+}
+
+/* ----------------Join us---------------------------- */
+
+.join-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.join-us > div > input {
+  height: 60px;
+  width: 70%;
+  padding: 16px 0px 16px 20px;
+  position: relative;
+  border-radius: 15px;
+}
+.join-us > div > button {
+  height: 60px;
+  width: 10%;
+  position: absolute;
+  border-radius: 15px;
+  right: 20%;
+}
+.join-us div {
+  padding: 15px;
+}
+.community {
+  justify-content: space-around;
+}
+/* -----------------footer--------------------- */
+
+.footer-item input {
+  height: 60px;
+  width: 80%;
+  padding: 16px 0px 16px 20px;
+  position: relative;
+  border-radius: 15px;
+}
+.item3 {
+  margin-left: auto;
+}
+.footer-item button {
+  height: 60px;
+  width: 11%;
+  position: absolute;
+  border-radius: 15px;
+  right: 8%;
+}
+.bg {
+  background-image: url("../images/NFTHighlight.svg");
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  margin: 80px 0;
+}
+
+.bg::before {
+  height: -webkit-fill-available;
+  position: absolute;
+  content: "";
+  background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #a259ff 100%);
+  width: 100%;
+}
+.bg > img {
+  width: 100%;
+}
+.overlay {
+  height: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  opacity: 99%;
+  padding-bottom: 60px;
+}
+.nft-btn {
+  padding: 10px;
+  width: 120px;
+  background-color: white;
+  color: #a259ff;
+  border-radius: 13px;
+  border: none;
+}
+.eye {
+  vertical-align: middle;
+}
+.time {
+  background-color: rgba(59, 59, 59, 1);
+  padding: 15px;
+  border-radius: 12px;
+  padding: 20px;
+}
+.mashroom {
+  row-gap: 15px;
+  padding: 20px;
+  flex-direction: column;
+  display: flex;
+}
+
+/* --------------------sign-up page-------------------- */
+
+.svg-input {
+  background: white;
+  border-radius: 15px;
+  width: 60%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sign-up-btn {
+  width: 60%;
+  height: auto;
+  padding: 15px;
+}
+.svg-input > input {
+  border: none;
+  width: 80%;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: center;
+  padding: 0 30px;
+}
+.create-account > img {
+  width: 50%;
+}
+
+/* -------connect with wallet------------------- */
+
+.connect-content > img {
+  width: 45%;
+}
+.connect {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  padding: 10px;
+}
+.mask {
+  background-color: rgba(59, 59, 59, 1);
+  padding: 5px 35px;
+  border-radius: 15px;
+  justify-content: space-between;
+  text-align: right;
+}
+.mask > img {
+  width: 50px;
+}
+.mask > p {
+  text-align: left;
+  width: 60%;
+}
+
+/* ---------------Artist Page-------------------- */
+
+.bg-artist {
+  background: url(../images/bg-artist.svg);
+  background-repeat: repeat;
+  background-size: auto;
+  height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.profile-img {
+  position: absolute;
+  top: 85%;
+}
+
+.copy {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 10px;
+  height: 60px;
+  width: 247px;
+  border-radius: 20px;
+  padding: 0 35px;
+  color: white;
+}
+.animakid {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-tabs {
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-tabs > div {
+  justify-content: center;
+  width: 32%;
+  align-items: center;
+  column-gap: 10px;
+}
+.nav-tabs > p {
+  text-align: center;
+  width: 20%;
+}
+.bg-primary {
+  background-color: rgba(133, 133, 132, 1);
+}
+.bg-secondary {
+  background-color: rgba(59, 59, 59, 1);
+}
+.nav-tabs > div > h3 {
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.blur {
+  opacity: 50%;
+}
+.active {
+  display: block;
+}
+.border-bottom {
+  border-bottom: 2px solid lightgray;
+}
+.nft-card {
+  background: rgba(43, 43, 43, 1);
+  border-radius: 0 0 15px 15px;
+}
+.rg-15 {
+  row-gap: 15px;
+}
+.cg-15 {
+  column-gap: 15px;
+}
+/* -----------NFT-PAGE-------------- */
+.bg-nft {
+  background-image: url(../images/nft-page.svg);
+  background-size: cover;
+  background-position: center;
+  height: 560px;
+}
+.btn-gray {
+  background: rgba(59, 59, 59, 1);
+  padding: 15px 35px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 15vmax;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 15px;
+  /* width: 100%; */
+}
+
+/* ------------marketplace-page ---------------- */
+.input {
+  position: relative;
+  width: 100%;
+}
+.input > input {
+  width: 100%;
+  padding: 15px 25px;
+  border-radius: 15px;
+  background: transparent;
+  border: 1px solid gray;
+  color: greenyellow;
+}
+.input > i {
+  position: absolute;
+  top: 40px;
+  right: 5%;
+  color: white;
+}
+
+/* ----------------ranking-page ------------------------ */
+
+.avatar {
+  background-color: rgba(59, 59, 59, 1);
+  justify-content: space-around;
+  margin: 30px 0;
+  border-radius: 15px;
+}
+.avatar-heading {
+  justify-content: space-around;
+  text-align: left;
+}
+.avatar-heading > div {
+  width: 40%;
+}
+.avatar-data {
+  text-align: left;
+  background: rgba(59, 59, 59, 1);
+}
+.profile-avatar {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.profile-avatar > p {
+  padding-left: 35px;
+}
+.profile-avatar > img {
+  width: 35px;
+}

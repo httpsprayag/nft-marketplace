@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/resposive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>NFT-Page</title>
+</head>
+
+<body>
+    <!-- --------------Navbar -------------------- -->
+
+    <div class="container position-sticky">
+        <nav class="navbar d-flex">
+            <div class="nav-left">
+                <div class="d-flex align-center">
+                    <a href="./index.html"><img src="../images/nav.svg" alt="" /></a>
+                    <a class="text-light" href="./nft-page.html">NFT marketplace</a>
+                </div>
+                <span class="navbar-toggle hidden" id="js-navbar-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </div>
+            <div class="col-6 d-flex nav-right main-nav" id="js-menu">
+                <a class=" text-light" href="./marketplace-page.html">marketplace</a>
+                <a class="text-light" href="./rankings.html">Rankings</a>
+                <a class="text-light" href="./connect-wallet.html">Connect a wallet</a>
+                <a href="./sign-up.html"> <button class="btn-violate sign-up">Signup</button></a>
+            </div>
+
+        </nav>
+    </div>
+    <!-- ------------------nft-background------------------- -->
+    <div class="bg-nft">
+    </div>
+
+
+    <div class="container">
+        <div class="p-25 d-flex justify-between orbitians">
+            <div>
+                <div>
+                    <p class="heading">The Orbitians</p>
+                    <p class="content blur">Minted on Sep 30, 2022</p>
+                </div>
+                <div class="p-25">
+                    <p class="content blur">Created By</p>
+                    <p class="heading-secondary m-0">Orbitian</p>
+                </div>
+            </div>
+            <div id="time" class="time">
+                Auction ends in: <br>
+                <table class="w-100">
+                    <tr>
+                        <td> 59 :</td>
+                        <td> 59 :</td>
+                        <td> 59 :</td>
+                    </tr>
+                    <tr>
+                        <td>Hours</td>
+                        <td>Minutes</td>
+                        <td>Seconds</td>
+                    </tr>
+                </table>
+                <button class="started btn-violate mt-25">Place Bid</button>
+            </div>
+        </div>
+        <div class="col-6 nft-content">
+            <p class="content blur">Description</p>
+            <p class="content">
+            <p class="content">
+                The Orbitians
+            </p>
+            <p class="content">
+                is a collection of 10,000 unique NFTs on the Ethereum blockchain,
+            </p>
+            <p class="content p-25">There are all sorts of beings in the
+                NFT Universe. The most advanced and friendly of the bunch are Orbitians.</p>
+            <p class="content">
+                They live in a metal space machines, high up in the sky and only have one foot on Earth.
+            </p>
+            <p class="content">
+                These Orbitians are a peaceful race, but they have been at war with a group of invaders for many
+                generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the
+                ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war
+                if they could only get an eye into Orbitian territory, so they've taken to make human beings their
+                target.
+            </p>
+            <p class="content blur p-25">Details</p>
+            <div class="d-flex"><img src="../images/Globe.svg" alt="">
+                <p class="content">View on Etherscan</p>
+            </div>
+            <div class="d-flex"><img src="../images/Globe.svg" alt="">
+                <p class="content">View Original</p>
+            </div>
+            <p class="content blur p-25">Tags</p>
+            <div class="buttons">
+                <button class="btn-gray">Animation</button>
+                <button class="btn-gray">illustration</button>
+                <button class="btn-gray">moon</button>
+                <button class="btn-gray">moon</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container ">
+        <div class="d-flex justify-between p-25 " id="artist">
+            <p class="heading">More from this artist</p>
+            <button class="border-violate" id="artist-btn">Go To Artist Page</button>
+        </div>
+
+        <div class="d-grid3 rg-15">
+            <div class="nft">
+                <img class="nftimg" src="../images/dog.svg" alt="" />
+                <div class="nft-card p-15">
+                    <p class="heading">Distant Galaxy</p>
+                    <div class="profile d-flex">
+                        <img src="../images/Avatar Placeholder (12).svg" alt="" />
+                        <h6>MoonDancer</h6>
+                    </div>
+                    <div class="d-flex justify-between info">
+                        <div>
+                            <p>price</p>
+                            <p class="content">1.63 ETH</p>
+                        </div>
+                        <div>
+                            <p class="text-right">Highest Bid</p>
+                            <p class="content">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nft">
+                <img class="nftimg" src="../images/cat.svg" alt="" />
+                <div class="nft-card p-15">
+                    <p class="heading">Distant Galaxy</p>
+                    <div class="profile d-flex">
+                        <img src="../images/Avatar Placeholder (12).svg" alt="" />
+                        <h6>MoonDancer</h6>
+                    </div>
+                    <div class="d-flex justify-between info">
+                        <div>
+                            <p>price</p>
+                            <p class="content">1.63 ETH</p>
+                        </div>
+                        <div>
+                            <p class="text-right">Highest Bid</p>
+                            <p class="content">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nft d-xs-none">
+                <img class="nftimg" src="../images/dog2.svg" alt="" />
+                <div class="nft-card p-15">
+                    <p class="heading">Distant Galaxy</p>
+                    <div class="profile d-flex">
+                        <img src="../images/Avatar Placeholder (12).svg" alt="" />
+                        <h6>MoonDancer</h6>
+                    </div>
+                    <div class="d-flex justify-between info">
+                        <div>
+                            <p>price</p>
+                            <p class="content">1.63 ETH</p>
+                        </div>
+                        <div>
+                            <p class="text-right">Highest Bid</p>
+                            <p class="content">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nft d-xs-none">
+                <img class="nftimg" src="../images/teddy.svg" alt="" />
+                <div class="nft-card p-15">
+                    <p class="heading">Distant Galaxy</p>
+                    <div class="profile d-flex">
+                        <img src="../images/Avatar Placeholder (12).svg" alt="" />
+                        <h6>MoonDancer</h6>
+                    </div>
+                    <div class="d-flex justify-between info">
+                        <div>
+                            <p>price</p>
+                            <p class="content">1.63 ETH</p>
+                        </div>
+                        <div>
+                            <p class="text-right">Highest Bid</p>
+                            <p class="content">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nft d-xs-none">
+                <img class="nftimg" src="../images/robot.svg" alt="" />
+                <div class="nft-card p-15">
+                    <p class="heading">Distant Galaxy</p>
+                    <div class="profile d-flex">
+                        <img src="../images/Avatar Placeholder (12).svg" alt="" />
+                        <h6>MoonDancer</h6>
+                    </div>
+                    <div class="d-flex justify-between info">
+                        <div>
+                            <p>price</p>
+                            <p class="content">1.63 ETH</p>
+                        </div>
+                        <div>
+                            <p class="text-right">Highest Bid</p>
+                            <p class="content">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nft d-xs-none">
+                <img class="nftimg" src="../images/robot2.svg" alt="" />
+                <div class="nft-card p-15">
+                    <p class="heading">Distant Galaxy</p>
+                    <div class="profile d-flex">
+                        <img src="../images/Avatar Placeholder (12).svg" alt="" />
+                        <h6>MoonDancer</h6>
+                    </div>
+                    <div class="d-flex justify-between info">
+                        <div>
+                            <p>price</p>
+                            <p class="content">1.63 ETH</p>
+                        </div>
+                        <div>
+                            <p class="text-right">Highest Bid</p>
+                            <p class="content">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nft d-sm-none">
+                <img class="nftimg" src="../images/robot3.svg" alt="" />
+                <div class="nft-card p-15">
+                    <p class="heading">Distant Galaxy</p>
+                    <div class="profile d-flex">
+                        <img src="../images/Avatar Placeholder (12).svg" alt="" />
+                        <h6>MoonDancer</h6>
+                    </div>
+                    <div class="d-flex justify-between info">
+                        <div>
+                            <p>price</p>
+                            <p class="content">1.63 ETH</p>
+                        </div>
+                        <div>
+                            <p class="text-right">Highest Bid</p>
+                            <p class="content">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nft d-sm-none">
+                <img class="nftimg" src="../images/robot4.svg" alt="" />
+                <div class="nft-card p-15">
+                    <p class="heading">Distant Galaxy</p>
+                    <div class="profile d-flex">
+                        <img src="../images/Avatar Placeholder (12).svg" alt="" />
+                        <h6>MoonDancer</h6>
+                    </div>
+                    <div class="d-flex justify-between info">
+                        <div>
+                            <p>price</p>
+                            <p class="content">1.63 ETH</p>
+                        </div>
+                        <div>
+                            <p class="text-right">Highest Bid</p>
+                            <p class="content">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nft d-sm-none">
+                <img class="nftimg" src="../images/robot5.svg" alt="" />
+                <div class="nft-card p-15">
+                    <p class="heading">Distant Galaxy</p>
+                    <div class="profile d-flex">
+                        <img src="../images/Avatar Placeholder (12).svg" alt="" />
+                        <h6>MoonDancer</h6>
+                    </div>
+                    <div class="d-flex justify-between info">
+                        <div>
+                            <p>price</p>
+                            <p class="content">1.63 ETH</p>
+                        </div>
+                        <div>
+                            <p class="text-right">Highest Bid</p>
+                            <p class="content">0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="hidden-btn" class="p-25">
+
+        </div>
+    </div>
+
+    <!-- ------footer------------ -->
+    <div class="bg-gray">
+        <div class="container">
+            <div class="d-grid-footer p-25">
+                <div class="footer-item">
+                    <div>
+                        <p class="heading-secondary">Nft Marketplace</p>
+                        <p class="content-secondary">
+                            NFT marketplace UI created with Anima for Figma.
+                        </p>
+                        <p class="content-secondary">Join our community</p>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div>
+                        <p class="heading-secondary">Explore</p>
+                        <p class="content-secondary">Marketplace</p>
+                        <p class="content-secondary">Rankings</p>
+                        <p class="content-secondary">Connect a wallet</p>
+                    </div>
+                </div>
+                <div class="footer-item item3">
+                    <div>
+                        <p class="heading-secondary">Join our weekly digest</p>
+                        <p class="content-secondary">
+                            Get exclusive promotions & updates straight to your inbox.
+                        </p>
+                        <input type="email" placeholder="enter your email here" />
+                        <button class="btn-violate">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-gray" />
+            <p class="p-25 contetnt-secondary m-0">
+                Ⓒ NFT Market. Use this template freely.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const mediaQuery = window.matchMedia("(max-width: 768px)");
+        const mediaQuery1 = window.matchMedia("(min-width: 768px)");
+
+        const child = document.getElementById("artist-btn")
+        const artist = document.getElementById("artist")
+        console.log(child);
+        console.log(artist);
+        function handleTabletChange(e) {
+            if (e.matches) {
+                // parent.removeChild(child);
+                document.getElementById("hidden-btn").append(child);
+                // document.getElementsByClassName("child").style.padding = "20px 0";
+            }
+        }
+        function handleTabletChange1(e) {
+            if (e.matches) {
+                // parent.removeChild(child);
+                document.getElementById("hidden-btn").removeChild(child);
+                artist.appendChild(child);
+                // document.getElementsByClassName("child").style.padding = "20px 0";
+            }
+        }
+        mediaQuery.addListener(handleTabletChange);
+        mediaQuery1.addListener(handleTabletChange1);
+
+        handleTabletChange(mediaQuery);
+        handleTabletChange1(mediaQuery1);
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+
+        navBarToggle.addEventListener('click', function () {
+            mainNav.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

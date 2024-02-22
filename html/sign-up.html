@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/resposive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>sign-up page</title>
+</head>
+
+<body>
+    <!----------- Navbar------------->
+    <div class="container position-sticky">
+        <nav class="navbar d-flex">
+            <div class="nav-left">
+                <div class="d-flex align-center">
+                    <a href="./index.html"><img src="../images/nav.svg" alt="" /></a>
+                    <a class="text-light" href="./nft-page.html">NFT marketplace</a>
+                </div>
+                <span class="navbar-toggle hidden" id="js-navbar-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </div>
+            <div class="col-6 d-flex nav-right main-nav" id="js-menu">
+                <a class=" text-light" href="./marketplace-page.html">marketplace</a>
+                <a class="text-light" href="./rankings.html">Rankings</a>
+                <a class="text-light" href="./connect-wallet.html">Connect a wallet</a>
+                <a href="./sign-up.html"> <button class="btn-violate sign-up">Signup</button></a>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- -------- Sign-up page------ -->
+    <div class="d-flex justify-between create-account h-100">
+        <img src="../images/signup.svg" alt="">
+        <div class="details col-6">
+            <p class="heading">Create account</p>
+            <p class="content">Welcome! enter your details and start creating, collecting and selling NFTs.</p>
+            <div class="svg-input">
+                <img class="svg-icon" src="../images/User.svg" alt="">
+                <input class="input-detail" type="text" name="username" id="" placeholder="username">
+            </div>
+            <div class="svg-input">
+                <img class="svg-icon" src="../images/email.svg" alt="">
+                <input class="input-detail" type="email" name="email" id="" placeholder="email">
+            </div>
+            <div class="svg-input">
+                <img class="svg-icon" src="../images/LockKey.svg" alt="">
+                <input class="input-detail" type="password" name="password" id="" placeholder="password">
+            </div>
+            <div class="svg-input">
+                <img class="svg-icon" src="../images/LockKey.svg" alt="">
+                <input class="input-detail" type="password" name="confirm-password" id=""
+                    placeholder="confirm-password">
+            </div>
+            <button class="sign-up-btn btn-violate started">Create Account</button>
+        </div>
+    </div>
+    <!-- -----------footer---------- -->
+    <div class="bg-gray">
+        <div class="container">
+            <div class="d-grid-footer p-25">
+                <div class="footer-item">
+                    <div>
+                        <p class="heading-secondary">Nft Marketplace</p>
+                        <p class="content-secondary">
+                            NFT marketplace UI created with Anima for Figma.
+                        </p>
+                        <p class="content-secondary">Join our community</p>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div>
+                        <p class="heading-secondary">Explore</p>
+                        <p class="content-secondary">Marketplace</p>
+                        <p class="content-secondary">Rankings</p>
+                        <p class="content-secondary">Connect a wallet</p>
+                    </div>
+                </div>
+                <div class="footer-item item3">
+                    <div>
+                        <p class="heading-secondary">Join our weekly digest</p>
+                        <p class="content-secondary">
+                            Get exclusive promotions & updates straight to your inbox.
+                        </p>
+                        <input type="email" placeholder="enter your email here" />
+                        <button class="btn-violate">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-gray" />
+            <p class="p-25 contetnt-secondary m-0">
+                Ⓒ NFT Market. Use this template freely.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+
+        navBarToggle.addEventListener('click', function () {
+            mainNav.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
